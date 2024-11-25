@@ -24,5 +24,8 @@ To deploy the application on AWS, the following services are required:
 - **IAM Roles**: To grant the necessary permissions for interacting with AWS services.
 - **Elastic Container Registry (ECR)**: For storing the Docker images used in the Kubernetes deployment.
 
+![alt text](<Blank diagram (2).png>)
+**Figure 1: AWS services used for application deployment**
+
 By using these AWS services, the application can be deployed in a fully managed and scalable environment. The Kubernetes deployment ensures that the app can handle increased traffic, while the RDS database allows for persistent storage of request counts.
 
