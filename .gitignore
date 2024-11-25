@@ -1,0 +1,43 @@
+# Virtual environment
+venv/
+env/
+
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Packages
+*.egg-info/
+*.egg
+
+# Pip dependency cache
+*.pip
+
+# IDE and editor configurations
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Generated documentation
+docs/_build/
+
+# Test coverage reports
+.coverage
+.cache/
+htmlcov/
+
+# Others
+*.bak
+*.swp
+*.tmp
+requests.db
